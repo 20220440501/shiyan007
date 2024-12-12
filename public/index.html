@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gomoku</title>
+    <style>
+      .game {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      .game-board {
+        margin-right: 20px;
+      }
+
+      .board-row {
+        display: flex;
+      }
+
+      .square {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+      }
+
+      .square:hover {
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
